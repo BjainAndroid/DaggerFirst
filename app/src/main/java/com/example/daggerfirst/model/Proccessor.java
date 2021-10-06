@@ -1,4 +1,4 @@
-package com.example.daggerfirst;
+package com.example.daggerfirst.model;
 
 import android.util.Log;
 

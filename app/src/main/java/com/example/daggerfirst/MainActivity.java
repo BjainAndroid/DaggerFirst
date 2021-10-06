@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.example.daggerfirst.component.DaggerMobileComponent;
 import com.example.daggerfirst.component.MobileComponent;
+import com.example.daggerfirst.model.Mobile;
 
 import javax.inject.Inject;
 

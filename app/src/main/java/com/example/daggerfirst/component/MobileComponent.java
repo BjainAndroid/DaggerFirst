@@ -1,7 +1,7 @@
 package com.example.daggerfirst.component;
 
 import com.example.daggerfirst.MainActivity;
-import com.example.daggerfirst.Mobile;
+import com.example.daggerfirst.model.Mobile;
 
 import dagger.Component;
 

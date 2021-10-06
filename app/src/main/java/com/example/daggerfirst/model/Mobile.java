@@ -1,11 +1,13 @@
-package com.example.daggerfirst;
+package com.example.daggerfirst.model;
 
 import android.util.Log;
 
 import javax.inject.Inject;
 
 public class Mobile {
-    private Battery battery;
+
+    @Inject
+    Battery battery;
     private Proccessor proccessor;
 
     @Inject
@@ -17,5 +19,10 @@ public class Mobile {
 
     public void run(){
         Log.i("MyMobile:","Run");
+    }
+
+    @Inject
+    public void connectCharger(Charger charger){
+        charger.setCharger(this);
     }
 }
