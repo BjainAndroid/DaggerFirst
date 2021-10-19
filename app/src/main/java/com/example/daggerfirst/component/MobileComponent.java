@@ -10,7 +10,7 @@ import dagger.Component;
 
 @Component(modules = {BatteryModules.class, SnapdragonModule.class})
 public interface MobileComponent {
-    Mobile getMobile();
+//    Mobile getMobile();
 
     void inject(MainActivity activity);
 }

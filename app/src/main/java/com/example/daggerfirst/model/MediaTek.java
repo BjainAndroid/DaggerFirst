@@ -4,13 +4,10 @@ import android.util.Log;
 
 import javax.inject.Inject;
 
-
-
-
 public class MediaTek implements Proccessor{
 
     int clockSpeed;
-
+    @Inject
     public MediaTek(int clockSpeed) {
         Log.i("MyMobile", "MediaTek: ");
     }

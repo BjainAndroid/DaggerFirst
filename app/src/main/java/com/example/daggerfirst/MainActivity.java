@@ -11,6 +11,8 @@ import com.example.daggerfirst.modules.SnapdragonModule;
 
 import javax.inject.Inject;
 
+import dagger.internal.DaggerGenerated;
+
 public class MainActivity extends AppCompatActivity {
 
     @Inject

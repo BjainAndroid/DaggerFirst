@@ -11,7 +11,7 @@ public class Snapdragon implements Proccessor {
 
     int clockSpeed;
 
-    @Inject
+
     public Snapdragon(int clockSpeed) {
         this.clockSpeed = clockSpeed;
         Log.i("MyMobile", "Snapdragon: ");
