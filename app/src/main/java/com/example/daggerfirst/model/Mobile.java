@@ -6,8 +6,7 @@ import javax.inject.Inject;
 
 public class Mobile {
 
-    @Inject
-    Battery battery;
+    private Battery battery;
     private Proccessor proccessor;
 
     @Inject
@@ -18,11 +17,12 @@ public class Mobile {
     }
 
     public void run(){
-        Log.i("MyMobile:","Run");
+        proccessor.start();
+        Log.i("MyMobile:","Mobile Run");
     }
 
-    @Inject
+    /*@Inject
     public void connectCharger(Charger charger){
         charger.setCharger(this);
-    }
+    }*/
 }
